@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Church of the Great Shepherd</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="images/Altar.jpg" alt="Altar">
+            </div>
+            <div class="slide">
+                <img src="images/2_Crosses.jpg" alt="2 Crosses">
+            </div>
+            <div class="slide">
+                <img src="images/image1.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="images/image2.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="images/image3.jpg" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="images/image4.jpg" alt="Image 4">
+            </div>
+            <div class="slide">
+                <img src="images/image5.jpg" alt="Image 5">
+            </div>
+            <div class="slide">
+                <img src="images/image6.jpg" alt="Image 6">
+            </div>
+            <div class="slide">
+                <img src="images/shepherds/Jesus_drawing.jpg" alt="Jesus Drawing" class="full-image">
+            </div>
+        </div>
+        <button class="slider-btn prev">❮</button>
+        <button class="slider-btn next">❯</button>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <img src="images/architecture/COGS_Arch.avif" alt="COGS_Arch" class="nav-logo">
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="new.html">I'm New</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="find-us.html">Find Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="page-content">
+        <section class="content-section">
+            <h1>Church Events & Activities</h1>
+                        
+            <div class="events-controls">
+                <button id="filter-toggle" class="filter-button">Show Past Events</button>
+                <div class="category-filters">
+                    <span class="filter-label">Filter by type:</span>
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="service">Services</button>
+                    <button class="category-btn" data-category="program">Programs</button>
+                    <button class="category-btn" data-category="community">Community</button>
+                </div>
+            </div>
+
+            <div id="events-list" class="events-container">
+                <!-- Future Events -->
+                <article class="event-item future" data-date="2026-06-28" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Jun</span>
+                        <span class="day">28</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-07-05" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Jul</span>
+                        <span class="day">5</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-07-12" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Jul</span>
+                        <span class="day">12</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-07-19" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Jul</span>
+                        <span class="day">19</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-07-26" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Jul</span>
+                        <span class="day">26</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-08-02" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Aug</span>
+                        <span class="day">2</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-08-09" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Aug</span>
+                        <span class="day">9</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-08-16" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Aug</span>
+                        <span class="day">16</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-08-23" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Aug</span>
+                        <span class="day">23</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-08-30" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Aug</span>
+                        <span class="day">30</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-09-06" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Sep</span>
+                        <span class="day">6</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-09-13" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Sep</span>
+                        <span class="day">13</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-09-17" data-category="program">
+                    <div class="event-date">
+                        <span class="month">Sep</span>
+                        <span class="day">17</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Financial Peace University</h3>
+                        <p class="event-time">6:30 PM - 8:30 PM</p>
+                        <p class="event-location">Fellowship Hall</p>
+                        <p>Session 1 of the Financial Peace University series. Learn practical financial principles from a biblical perspective. New students welcome!</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-09-20" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Sep</span>
+                        <span class="day">20</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-09-24" data-category="program">
+                    <div class="event-date">
+                        <span class="month">Sep</span>
+                        <span class="day">24</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Financial Peace University</h3>
+                        <p class="event-time">6:30 PM - 8:30 PM</p>
+                        <p class="event-location">Fellowship Hall</p>
+                        <p>Session 2 of the Financial Peace University series. Continue building your foundation for financial freedom.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-09-27" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Sep</span>
+                        <span class="day">27</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-10-01" data-category="program">
+                    <div class="event-date">
+                        <span class="month">Oct</span>
+                        <span class="day">1</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Financial Peace University</h3>
+                        <p class="event-time">6:30 PM - 8:30 PM</p>
+                        <p class="event-location">Fellowship Hall</p>
+                        <p>Session 3 of the Financial Peace University series. Deepen your understanding of stewardship and saving.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-10-04" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Oct</span>
+                        <span class="day">4</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-10-08" data-category="program">
+                    <div class="event-date">
+                        <span class="month">Oct</span>
+                        <span class="day">8</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Financial Peace University</h3>
+                        <p class="event-time">6:30 PM - 8:30 PM</p>
+                        <p class="event-location">Fellowship Hall</p>
+                        <p>Session 4 of the Financial Peace University series. Continue your journey toward financial peace.</p>
+                    </div>
+                </article>
+
+                <article class="event-item future" data-date="2026-10-11" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Oct</span>
+                        <span class="day">11</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service with sermon and potluck lunch.</p>
+                    </div>
+                </article>
+
+                <!-- Past Events -->
+                <article class="event-item past" data-date="2026-06-14" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Jun</span>
+                        <span class="day">14</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Worship service with special summer sermon series.</p>
+                    </div>
+                </article>
+
+                <article class="event-item past" data-date="2026-06-07" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Jun</span>
+                        <span class="day">7</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Worship service with special summer sermon series.</p>
+                    </div>
+                </article>
+
+                <article class="event-item past" data-date="2026-05-24" data-category="service">
+                    <div class="event-date">
+                        <span class="month">May</span>
+                        <span class="day">24</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Memorial Day weekend worship service.</p>
+                    </div>
+                </article>
+
+                <article class="event-item past" data-date="2026-05-17" data-category="service">
+                    <div class="event-date">
+                        <span class="month">May</span>
+                        <span class="day">17</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Our regular Sunday morning worship service.</p>
+                    </div>
+                </article>
+
+                <article class="event-item past" data-date="2026-04-26" data-category="service">
+                    <div class="event-date">
+                        <span class="month">Apr</span>
+                        <span class="day">26</span>
+                        <span class="year">2026</span>
+                    </div>
+                    <div class="event-details">
+                        <h3>Sunday Worship Service</h3>
+                        <p class="event-time">10:00 AM - 11:30 AM</p>
+                        <p class="event-location">Main Sanctuary</p>
+                        <p>Resurrection Sunday celebration service.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div id="no-events-message" class="no-events-msg" style="display: none;">
+                <p>No events found matching your criteria.</p>
+            </div>
+
+            <aside class="event-calendar-link">
+                <h3>Want to add an event?</h3>
+                <p>Please contact the church office to submit an event for inclusion in our calendar.</p>
+                <a href="find-us.html" class="secondary-button">Contact Us</a>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>📍 903 West Liberty Drive, Wheaton, IL 60187</p>
+                <p>📞 (630) 681-0776</p>
+                <p>✉️ office@greatshepherd.org</p>
+            </div>
+            <div class="service-times">
+                <h3>Sunday Services</h3>
+                <p> Worship: 10am - 11:30am</p>
+                <p> Potluck Lunch: 12pm</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Church of the Great Shepherd. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

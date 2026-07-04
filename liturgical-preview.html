@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anglican Liturgical Color Preview</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #fafaf9;
+            padding: 2rem;
+            max-width: 860px;
+            margin: 0 auto;
+            color: #1a1a2e;
+        }
+        h1 { text-align: center; margin-bottom: 0.5rem; }
+        .season-row {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+            align-items: stretch;
+        }
+        .preview-card {
+            width: 380px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+        nav.preview-nav { padding: 0.75rem 1.5rem; font-size: 0.9rem; display: flex; justify-content: space-between; align-items: center; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        footer.preview-footer { padding: 1.25rem 1.5rem; border-top: 1px solid rgba(255,255,255,0.3); font-size: 0.85rem; line-height: 1.6; }
+        .season-label { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 0.4rem; padding-right: 1.25rem; }
+        .season-name { font-size: 1.35rem; font-weight: bold; }
+        .season-range { color: #666; font-size: 0.9rem; }
+        .season-desc { font-size: 0.85rem; margin-top: 0.25rem; line-height: 1.5; }
+    </style>
+</head>
+<body>
+
+    <h1>Anglican Liturgical Calendar — Nav & Footer Preview</h1>
+    <p style="text-align:center;color:#666;font-size:0.95rem;">Simulated nav bar and footer for each season of the liturgical year.</p>
+
+    <!-- Advent Prep -->
+    <div class="season-row">
+        <div class="preview-card" id="card-advent-prep"></div>
+        <div class="season-label">
+            <span class="season-name" style="color:#1a3d6e;">Advent (Preparation)</span>
+            <span class="season-range">~Dec 27 prev – ~Jan 4</span>
+            <span class="season-desc">Dark Blue — penitential season of anticipation.</span>
+        </div>
+    </div>
+
+    <!-- Advent Gaudete -->
+    <div class="season-row">
+        <div class="preview-card" id="card-gaudete"></div>
+        <div class="season-label">
+            <span class="season-name" style="color:#c41e3a;">Advent — Gaudete Sunday</span>
+            <span class="season-range">~Jan 4 – Dec 25 prev (3rd Sun)</span>
+            <span class="season-desc">Rose/Pink — joy anticipated on the third Sunday.</span>
+        </div>
+    </div>
+
+    <!-- Christmas/Epiphany -->
+    <div class="season-row">
+        <div class="preview-card" id="card-christmas"></div>
+        <div class="season-label">
+            <span class="season-name" style="color:#1a1a2e;">Christmas through Epiphany</span>
+            <span class="season-range">Dec 25 prev – ~Feb 6 / Mar 19</span>
+            <span class="season-desc">Gold/White — purity, light & the joy of Christ's birth.</span>
+        </div>
+    </div>
+
+    <!-- Ordinary Time -->
+    <div class="season-row">
+        <div class="preview-card" id="card-ordinary"></div>
+        <div class="season-label">
+            <span class="season-name" style="color:#5c9e47;">Ordinary Time (Green)</span>
+            <span class="season-range">After Epiphany → Lent / Pentecost → next Advent</span>
+            <span class="season-desc">Green — new life, hope, growth & harvest.</span>
+        </div>
+    </div>
+
+    <!-- Lent -->
+    <div class="season-row">
+        <div class="preview-card" id="card-lent"></div>
+        <div class="season-label">
+            <span class="season-name" style="color:#6b2c7e;">Lent (Penitence)</span>
+            <span class="season-range">~Mar 19 – ~Apr 5 (Ash Wed → Palm Sun)</span>
+            <span class="season-desc">Purple/Violet — penance, repentance & preparation.</span>
+        </div>
+    </div>
+
+    <!-- Holy Week -->
+    <div class="season-row">
+        <div class="preview-card" id="card-holy-week"></div>
+        <div class="season-label">
+            <span class="season-name" style="color:#c41e3a;">Holy Week (Passion)</span>
+            <span class="season-range">~Apr 5 – ~Apr 9 (Palm Sun → Good Fri)</span>
+            <span class="season-desc">Red — Christ's passion, suffering & the Passion narrative.</span>
+        </div>
+    </div>
+
+    <!-- Easter -->
+    <div class="season-row">
+        <div class="preview-card" id="card-easter"></div>
+        <div class="season-label">
+            <span class="season-name" style="color:#1a1a2e;">Easter Season</span>
+            <span class="season-range">~Apr 5 – ~May 31 (Good Fri → Pentecost)</span>
+            <span class="season-desc">White/Gold — resurrection joy, triumph of life over death.</span>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script>
+        // Each card gets its nav/footer colored to represent that season.
+        // The actual main.js logic (updateLiturgicalColors) is what the live site uses — this preview just simulates it visually.
+        const cards = [
+            { id: 'card-advent-prep',   navBg:'#1a3d6e',  footBg:'#1a3d6e' },
+            { id: 'card-gaudete',       navBg:'#c41e3a',  footBg:'#c41e3a' },
+            { id: 'card-christmas',     navBg:'#f4e7c3',  footBg:'#f4e7c3' },
+            { id: 'card-ordinary',      navBg:'#5c9e47',  footBg:'#5c9e47' },
+            { id: 'card-lent',          navBg:'#6b2c7e',  footBg:'#6b2c7e' },
+            { id: 'card-holy-week',     navBg:'#c41e3a',  footBg:'#c41e3a' },
+            { id: 'card-easter',        navBg:'#f4e7c3',  footBg:'#f4e7c3' },
+        ];
+
+        cards.forEach(c => {
+            const card = document.getElementById(c.id);
+            card.style.backgroundImage = 'none';
+            // Create nav and footer elements inside the card
+            let nav = card.querySelector('nav');
+            let foot = card.querySelector('footer');
+            if (!nav) {
+                nav = document.createElement('nav');
+                nav.className = 'preview-nav';
+                nav.textContent = 'Church of the Great Shepherd';
+                nav.style.position = 'relative';
+                nav.style.zIndex = 1;
+                card.appendChild(nav);
+            }
+            if (!foot) {
+                foot = document.createElement('footer');
+                foot.className = 'preview-footer';
+                foot.innerHTML = '<div><strong>Contact:</strong> 📍 903 West Liberty Drive, Wheaton, IL 60187</div><div style="margin-top:0.5rem;"><strong>Sunday Services:</strong> Worship 10am – Potluck 12pm</div>';
+                card.appendChild(foot);
+            }
+
+            // Apply the simulated liturgical colors
+            nav.style.backgroundColor = c.navBg;
+            if (c.id === 'card-christmas' || c.id === 'card-easter') {
+                nav.style.color = '#1a1a2e';
+            } else {
+                nav.style.color = '#ffffff';
+            }
+
+            foot.style.backgroundColor = c.footBg;
+            if (c.id === 'card-advent-prep' || c.id === 'card-gaudete' || c.id === 'card-lent' || c.id === 'card-holy-week') {
+                foot.style.color = '#f0ede8';
+            }
+        });
+    </script>
+</body>
+</html>
