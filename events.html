@@ -71,6 +71,9 @@
             <h1>Church Events & Activities</h1>
                         
             <div class="events-controls">
+                <div class="search-wrapper">
+                    <input type="text" id="event-search" class="event-search-input" placeholder="Search events...">
+                </div>
                 <button id="filter-toggle" class="filter-button">Show Past Events</button>
                 <div class="category-filters">
                     <span class="filter-label">Filter by type:</span>
@@ -480,6 +483,28 @@
         </div>
     </footer>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('event-search');
+            const eventsList = document.getElementById('events-list');
+            
+            if (searchInput && eventsList) {
+                searchInput.addEventListener('input', function() {
+                    const query = this.value.trim().toLowerCase();
+                    const events = eventsList.querySelectorAll('.event-item');
+                    
+                    events.forEach(function(event) {
+                        const text = event.textContent.toLowerCase();
+                        if (query === '' || text.includes(query)) {
+                            event.style.display = '';
+                        } else {
+                            event.style.display = 'none';
+                        }
+                    });
+                });
+            }
+        });
+    </script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

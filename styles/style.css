@@ -619,6 +619,28 @@ ul {
     color: var(--bg-white);
 }
 
+.event-search-input {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-family: inherit;
+    transition: var(--transition);
+    background: var(--bg-white);
+    margin-bottom: 1rem;
+}
+
+.event-search-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(27, 94, 32, 0.15);
+}
+
+.event-search-input::placeholder {
+    color: #999;
+}
+
 .events-container {
     display: flex;
     flex-direction: column;
