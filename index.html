@@ -4,51 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Church of the Great Shepherd</title>
+    <meta name="description" content="Welcome to Church of the Great Shepherd in Wheaton, IL. A welcoming Christian community for worship, fellowship, and spiritual growth.">
+    <meta property="og:title" content="Church of the Great Shepherd">
+    <meta property="og:description" content="A welcoming Christian community in Wheaton, IL.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Church of the Great Shepherd">
+    <meta name="twitter:description" content="A welcoming Christian community in Wheaton, IL.">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header class="header-slider">
         <div class="slider-container">
             <div class="slide active">
-                <img src="images/Altar.jpg" alt="Altar">
+                <img src="images/Altar.jpg" alt="Altar" loading="eager" fetchpriority="high">
             </div>
             <div class="slide">
-                <img src="images/2_Crosses.jpg" alt="2 Crosses">
+                                <img src="images/2_Crosses.jpg" alt="Two crosses at the altar" loading="lazy">
             </div>
             <div class="slide">
-                <img src="images/image1.jpg" alt="Image 1">
+                                <img src="images/image1.jpg" alt="Wall picture 1" loading="lazy">
             </div>
             <div class="slide">
-                <img src="images/image2.jpg" alt="Image 2">
+                                <img src="images/image2.jpg" alt="Wall picture 2" loading="lazy">
             </div>
             <div class="slide">
-                <img src="images/image3.jpg" alt="Image 3">
+                                <img src="images/image3.jpg" alt="Wall picture 3" loading="lazy">
             </div>
             <div class="slide">
-                <img src="images/image4.jpg" alt="Image 4">
+                                <img src="images/image4.jpg" alt="Wall picture 4" loading="lazy">
             </div>
             <div class="slide">
-                <img src="images/image5.jpg" alt="Image 5">
+                                <img src="images/image5.jpg" alt="Wall picture 5" loading="lazy">
             </div>
             <div class="slide">
-                <img src="images/image6.jpg" alt="Image 6">
+                                <img src="images/image6.jpg" alt="Wall picture 6" loading="lazy">
             </div>
             <div class="slide">
-                <img src="images/shepherds/Jesus_drawing.jpg" alt="Jesus Drawing" class="full-image">
+                <img src="images/shepherds/Jesus_drawing.jpg" alt="Jesus Drawing" class="full-image" loading="lazy">
             </div>
         </div>
-        <button class="slider-btn prev">❮</button>
-        <button class="slider-btn next">❯</button>
+        <button class="slider-btn prev" aria-hidden="true" role="presentation">❮</button>
+        <button class="slider-btn next" aria-hidden="true" role="presentation">❯</button>
         <div class="slider-dots">
-            <span class="dot active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+            <span class="dot active" aria-hidden="true" role="presentation"></span>
+            <span class="dot" aria-hidden="true" role="presentation"></span>
+            <span class="dot" aria-hidden="true" role="presentation"></span>
+            <span class="dot" aria-hidden="true" role="presentation"></span>
+            <span class="dot" aria-hidden="true" role="presentation"></span>
+            <span class="dot" aria-hidden="true" role="presentation"></span>
+            <span class="dot" aria-hidden="true" role="presentation"></span>
+            <span class="dot" aria-hidden="true" role="presentation"></span>
+            <span class="dot" aria-hidden="true" role="presentation"></span>
         </div>
     </header>
 
