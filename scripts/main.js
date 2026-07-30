@@ -118,10 +118,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 event.classList.remove('hidden');
                 
                 // Date filtering
-                const eventDate = new Date(event.dataset.date);
-                const isFuture = eventDate >= now;
+                const eventDate = new Date(event.dataset.date + 'T00:00:00');
+                const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
                 
-                if (!showPastEvents && !isFuture) {
+                if (!showPastEvents && eventDate < today) {
                     event.classList.add('hidden');
                 }
                 
