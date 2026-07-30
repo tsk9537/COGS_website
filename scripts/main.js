@@ -238,6 +238,25 @@ document.addEventListener('DOMContentLoaded', function() {
     // Anglican Liturgical Year — Nav & Footer Colors
     // =========================================
     const now = new Date();
+    // Create a UTC version for consistent comparisons with UTC calendar dates
+    const nowUTC = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), now.getMinutes(), now.getSeconds()));
+
+    /**
+     * Finds the Sunday closest to November 30th of a given year.
+     * Used to determine the first Sunday of Advent.
+     */
+    function getAdventSunday(yr) {
+        const nov30 = new Date(Date.UTC(yr, 10, 30)); // November 30
+        const dayOfWeek = nov30.getUTCDay(); // 0 = Sunday, 1 = Monday...
+
+        // If dayOfWeek <= 3 (Sun-Wed), move back to Sunday. 
+        // If dayOfWeek > 3 (Thu-Sat), move forward to Sunday.
+        const offset = dayOfWeek <= 3 ? -dayOfWeek : 7 - dayOfWeek;
+
+        const advent = new Date(nov30);
+        advent.setUTCDate(advent.getUTCDate() + offset);
+        return advent;
+    }
 
     /**
      * Calculates key dates for the Anglican Church Calendar for a given year.
@@ -271,20 +290,6 @@ document.addEventListener('DOMContentLoaded', function() {
             return date;
         };
 
-        // Helper function to find Advent Sunday (nearest Sunday to November 30)
-        const getAdventSunday = (yr) => {
-            const nov30 = new Date(Date.UTC(yr, 10, 30)); // November 30
-            const dayOfWeek = nov30.getUTCDay(); // 0 = Sunday, 1 = Monday...
-            
-            // If dayOfWeek <= 3 (Sun-Wed), move back to Sunday. 
-            // If dayOfWeek > 3 (Thu-Sat), move forward to Sunday.
-            const offset = dayOfWeek <= 3 ? -dayOfWeek : 7 - dayOfWeek;
-            
-            const advent = new Date(nov30);
-            advent.setUTCDate(advent.getUTCDate() + offset);
-            return advent;
-        };
-
         // 2. Map out the liturgical calendar anchors
         return {
             year: year,
@@ -310,27 +315,27 @@ document.addEventListener('DOMContentLoaded', function() {
         const nextYearAdvent = getAdventSunday(year + 1);
 
         let season;
-        if (now >= cal.adventSunday && now < cal.christmasDay) {
+        if (nowUTC >= cal.adventSunday && nowUTC < cal.christmasDay) {
             // Advent — full period from first Sunday of Advent through Dec 24
             // Distinguish Gaudete Sunday (3rd Sunday of Advent) by finding it: ~17 days after adventSunday
             const gaudete = new Date(cal.adventSunday);
             gaudete.setUTCDate(gaudete.getUTCDate() + 17);
-            if (now >= gaudete) {
+            if (nowUTC >= gaudete) {
                 season = 'advent-gaudete';
             } else {
                 season = 'advent-preparation';
             }
-        } else if (now >= cal.christmasDay && now < cal.epiphany) {
+        } else if (nowUTC >= cal.christmasDay && nowUTC < cal.epiphany) {
             season = 'christmas-epiphany';
-        } else if (now >= cal.epiphany && now < cal.ashWednesday) {
+        } else if (nowUTC >= cal.epiphany && nowUTC < cal.ashWednesday) {
             season = 'ordinary-time-green';
-        } else if (now >= cal.ashWednesday && now < cal.palmSunday) {
+        } else if (nowUTC >= cal.ashWednesday && nowUTC < cal.palmSunday) {
             season = 'lent-purp';
-        } else if (now >= cal.palmSunday && now < cal.goodFriday) {
+        } else if (nowUTC >= cal.palmSunday && nowUTC < cal.goodFriday) {
             season = 'holy-week-red';
-        } else if (now >= cal.goodFriday && now < cal.pentecost) {
+        } else if (nowUTC >= cal.goodFriday && nowUTC < cal.pentecost) {
             season = 'easter-white-gold';
-        } else if (now >= cal.pentecost && now < nextYearAdvent) {
+        } else if (nowUTC >= cal.pentecost && nowUTC < nextYearAdvent) {
             // After Pentecost through next Advent is Ordinary Time Green
             season = 'ordinary-time-green';
         } else {
