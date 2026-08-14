@@ -1,7 +1,6 @@
 (function(w,d,s,l,i){
     w[l]=w[l]||[];
     w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-    w[l].push({'event':'page_view','config':{'G-LFRD038HHF':true}});
     var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),
         dl=l!='dataLayer'?'&l='+l:'';
