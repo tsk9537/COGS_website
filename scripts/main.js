@@ -83,63 +83,111 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // =========================================
-    // Events Page Filtering
+    // Events Page (data-driven from events/events.json)
     // =========================================
-    const filterToggle = document.getElementById('filter-toggle');
-    const eventsList = document.getElementById('events-list');
-    const noEventsMessage = document.getElementById('no-events-message');
+    const EVENTS_URL = 'events/events.json';
+    let ALL_EVENTS = [];
+    let state = { showPast: false, category: 'all', query: '' };
+    let searchTimer = null;
+
+    function getToday() {
+        const now = new Date();
+        return new Date(now.getFullYear(), now.getMonth(), now.getDate()); // local midnight
+    }
+
+    const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June',
+                    'July', 'August', 'September', 'October', 'November', 'December'];
+
+    function parseDate(s) { return new Date(s + 'T00:00:00'); } // local midnight of that date
+
+    function filterEvents(list) {
+        const today = getToday();
+        let out = list.filter(e => state.showPast || parseDate(e.date) >= today);
+        if (state.category !== 'all') {
+            out = out.filter(e => e.category === state.category);
+        }
+        if (state.query) {
+            const q = state.query.toLowerCase();
+            out = out.filter(e => (e.title + ' ' + e.location + ' ' + e.description).toLowerCase().includes(q));
+        }
+        return out;
+    }
+
+    function renderEventItem(e) {
+    const d = parseDate(e.date);
+    const month = MONTHS[d.getMonth()];
+    const day = String(d.getDate());
+    const year = String(d.getFullYear()).slice(-4);
+        return (
+            '<article class="event-item" data-date="' + e.date + '" data-category="' + e.category + '">' +
+                '<div class="event-date">' +
+                    '<span class="month">' + month + '</span>' +
+                    '<span class="day">' + day + '</span>' +
+                    '<span class="year">' + year + '</span>' +
+                '</div>' +
+                '<div class="event-details">' +
+                    '<h3>' + e.title + '</h3>' +
+                    '<p class="event-time">' + e.time + '</p>' +
+                    '<p class="event-location">' + e.location + '</p>' +
+                    '<p>' + e.description + '</p>' +
+                '</div>' +
+            '</article>'
+        );
+    }
+
+    function renderEvents() {
+        const list = document.getElementById('events-list');
+        if (!list) return;
+        const visible = filterEvents(ALL_EVENTS);
+        list.innerHTML = '';
+        visible.forEach(e => list.insertAdjacentHTML('beforeend', renderEventItem(e)));
+        const noMsg = document.getElementById('no-events-message');
+        if (noMsg) {
+            noMsg.style.display = visible.length === 0 ? 'block' : 'none';
+        }
+    }
+
+    function loadEvents() {
+        fetch(EVENTS_URL)
+            .then(r => r.json())
+            .then(data => { ALL_EVENTS = Array.isArray(data) ? data : []; renderEvents(); })
+            .catch(() => { ALL_EVENTS = []; renderEvents(); });
+    }
+
     const categoryBtns = document.querySelectorAll('.category-btn');
-    
-    if (filterToggle && eventsList) {
-        let showPastEvents = false;
-        
-        filterToggle.addEventListener('click', function() {
-            showPastEvents = !showPastEvents;
-            this.textContent = showPastEvents ? 'Hide Past Events' : 'Show Past Events';
-            
-            updateEventVisibility();
-        });
-        
-        // Category filtering
+    if (categoryBtns.length) {
         categoryBtns.forEach(btn => {
             btn.addEventListener('click', function() {
                 categoryBtns.forEach(b => b.classList.remove('active'));
                 this.classList.add('active');
-                updateEventVisibility();
+                state.category = this.dataset.category;
+                renderEvents();
             });
         });
-        
-        function updateEventVisibility() {
-            const selectedCategory = document.querySelector('.category-btn.active').dataset.category;
-            const now = new Date();
-            let visibleCount = 0;
-            
-            Array.from(eventsList.children).forEach(event => {
-                event.classList.remove('hidden');
-                
-                // Date filtering
-                const eventDate = new Date(event.dataset.date + 'T00:00:00');
-                const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-                
-                if (!showPastEvents && eventDate < today) {
-                    event.classList.add('hidden');
-                }
-                
-                // Category filtering
-                if (selectedCategory !== 'all' && event.dataset.category !== selectedCategory) {
-                    event.classList.add('hidden');
-                }
-                
-                if (!event.classList.contains('hidden')) {
-                    visibleCount++;
-                }
-            });
-            
-            noEventsMessage.style.display = visibleCount === 0 ? 'block' : 'none';
-        }
-        
-        // Initial filter
-        updateEventVisibility();
+    }
+
+    const filterToggle = document.getElementById('filter-toggle');
+    if (filterToggle) {
+        // Lazy-load past events: only rendered when the user opts in.
+        filterToggle.addEventListener('click', function() {
+            state.showPast = !state.showPast;
+            this.textContent = state.showPast ? 'Hide Past Events' : 'Show Past Events';
+            renderEvents();
+        });
+    }
+
+    const searchInput = document.getElementById('event-search');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            clearTimeout(searchTimer);
+            state.query = this.value.trim();
+            searchTimer = setTimeout(renderEvents, 150); // debounce keystrokes
+        });
+    }
+
+    // Initial load
+    if (document.getElementById('events-list')) {
+        loadEvents();
     }
     
     // =========================================

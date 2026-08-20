@@ -1,0 +1,914 @@
+[
+  {
+    "date": "2026-05-17",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service."
+  },
+  {
+    "date": "2026-05-24",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Memorial Day weekend worship service."
+  },
+  {
+    "date": "2026-05-31",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service."
+  },
+  {
+    "date": "2026-06-07",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Worship service with special summer sermon series."
+  },
+  {
+    "date": "2026-06-14",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Worship service with special summer sermon series."
+  },
+  {
+    "date": "2026-06-21",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-06-28",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-07-05",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-07-07",
+    "category": "service",
+    "title": "Worship & Prayer Time at Darlene's House",
+    "time": "7:00 PM - 8:45 PM",
+    "location": "Darlene's House",
+    "description": "We invite everyone to gather for a time of worship and prayer to seek the Lord's wisdom in this time of transition."
+  },
+  {
+    "date": "2026-07-12",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-07-19",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon. Potluck lunch postponed until Aug 9."
+  },
+  {
+    "date": "2026-07-26",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon.Potluck lunch postponed until Aug 9."
+  },
+  {
+    "date": "2026-08-02",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon.Potluck lunch postponed until Aug 9."
+  },
+  {
+    "date": "2026-08-09",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-08-16",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-08-21",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2026-08-23",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-08-30",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-09-06",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-09-12",
+    "category": "program",
+    "title": "\"How to Share Your Faith\" Seminar",
+    "time": "9:00 AM - 12:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Learn practical ways to share your faith with others in everyday situations."
+  },
+  {
+    "date": "2026-09-13",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-09-17",
+    "category": "program",
+    "title": "Financial Peace University",
+    "time": "6:30 PM - 8:30 PM",
+    "location": "Fellowship Hall",
+    "description": "Session 1 of the Financial Peace University series. Learn practical financial principles from a biblical perspective. New students welcome!  \"Contact Jean & John Kleibhan at (630) 400-3698 or johnjean1028@gmail.com for more information. Click here to sign up: Financial Peace University\""
+  },
+  {
+    "date": "2026-09-18",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship."
+  },
+  {
+    "date": "2026-09-20",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-09-24",
+    "category": "program",
+    "title": "Financial Peace University",
+    "time": "6:30 PM - 8:30 PM",
+    "location": "Fellowship Hall",
+    "description": "Session 2 of the Financial Peace University series. Continue building your foundation for financial freedom."
+  },
+  {
+    "date": "2026-09-27",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-10-01",
+    "category": "program",
+    "title": "Financial Peace University",
+    "time": "6:30 PM - 8:30 PM",
+    "location": "Fellowship Hall",
+    "description": "Session 3 of the Financial Peace University series. Deepen your understanding of stewardship and saving."
+  },
+  {
+    "date": "2026-10-03",
+    "category": "service",
+    "title": "Pet Blessing",
+    "time": "1:00 PM - 2:00 PM",
+    "location": "Outside Church Building",
+    "description": "Annual Pet Blessing for you and your special companion, all are welcome."
+  },
+  {
+    "date": "2026-10-04",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-10-08",
+    "category": "program",
+    "title": "Financial Peace University",
+    "time": "6:30 PM - 8:30 PM",
+    "location": "Fellowship Hall",
+    "description": "Session 4 of the Financial Peace University series. Continue your journey toward financial peace."
+  },
+  {
+    "date": "2026-10-11",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-10-15",
+    "category": "program",
+    "title": "Financial Peace University",
+    "time": "6:30 PM - 8:30 PM",
+    "location": "Fellowship Hall",
+    "description": "Session 5 of the Financial Peace University series. Deepen your understanding of stewardship and saving."
+  },
+  {
+    "date": "2026-10-16",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship."
+  },
+  {
+    "date": "2026-10-18",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-10-22",
+    "category": "program",
+    "title": "Financial Peace University",
+    "time": "6:30 PM - 8:30 PM",
+    "location": "Fellowship Hall",
+    "description": "Session 6 of the Financial Peace University series. Deepen your understanding of stewardship and saving."
+  },
+  {
+    "date": "2026-10-25",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-10-29",
+    "category": "program",
+    "title": "Financial Peace University",
+    "time": "6:30 PM - 8:30 PM",
+    "location": "Fellowship Hall",
+    "description": "Session 7 of the Financial Peace University series. Deepen your understanding of stewardship and saving."
+  },
+  {
+    "date": "2026-11-01",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-11-05",
+    "category": "program",
+    "title": "Financial Peace University",
+    "time": "6:30 PM - 8:30 PM",
+    "location": "Fellowship Hall",
+    "description": "Session 8 of the Financial Peace University series. Deepen your understanding of stewardship and saving."
+  },
+  {
+    "date": "2026-11-08",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-11-12",
+    "category": "program",
+    "title": "Financial Peace University",
+    "time": "6:30 PM - 8:30 PM",
+    "location": "Fellowship Hall",
+    "description": "Session 9 of the Financial Peace University series. Deepen your understanding of stewardship and saving."
+  },
+  {
+    "date": "2026-11-15",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-11-20",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2026-11-22",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-11-29",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-12-06",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-12-13",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-12-18",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2026-12-20",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-12-27",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-01-03",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-01-10",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-01-15",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-01-17",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-01-24",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-01-31",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-02-07",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-02-14",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-02-19",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-02-21",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-02-28",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-03-07",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-03-14",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-03-19",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-03-21",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-03-28",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-04-04",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-04-11",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-04-16",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-04-18",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-04-25",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-05-02",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-05-09",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-05-16",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-05-21",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-05-23",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-05-30",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-06-06",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-06-13",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-06-18",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-06-20",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-06-27",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-07-04",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-07-11",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-07-16",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-07-18",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-07-25",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-08-01",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-08-08",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-08-15",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-08-20",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-08-22",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-08-29",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-09-05",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-09-12",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-09-17",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-09-19",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-09-26",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-10-03",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-10-10",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-10-15",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-10-17",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-10-24",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-10-31",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-11-07",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-11-14",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-11-19",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-11-21",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-11-28",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-12-05",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-12-12",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2027-12-17",
+    "category": "community",
+    "title": "Game Night",
+    "time": "6:30 PM - 9:00 PM",
+    "location": "Fellowship Hall",
+    "description": "Join us for an evening of games and fellowship. Every third Friday of the month."
+  },
+  {
+    "date": "2027-12-19",
+    "category": "service",
+    "title": "Sunday Worship Service (Christmas)",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service celebrating Christmas."
+  },
+  {
+    "date": "2027-12-26",
+    "category": "service",
+    "title": "Sunday Worship Service",
+    "time": "10:00 AM - 11:30 AM",
+    "location": "Main Sanctuary",
+    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+  }
+]
