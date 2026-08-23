@@ -1,1 +1,6 @@
-{}
+{
+  "devDependencies": {
+    "cssnano": "^8.0.7",
+    "terser": "^5.50.0"
+  }
+}
