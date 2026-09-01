@@ -3,14 +3,14 @@
 ## SEO / Metadata
 - [x] `index.html` contains JSON-LD schema and a canonical tag (verified). No action needed; mark the corresponding items in `seo_tasks.md` as complete.
 - [x] Canonical URLs are present on all 8 HTML pages (verified via grep). No action needed.
-- [ ] `sitemap.xml` lists all public pages but has no `<lastmod>` dates. Add `<lastmod>` using git commit dates or build date and validate against the sitemap schema.
+- [x] `sitemap.xml` lists all 8 public pages with `<lastmod>` dates and validates against schema.
 
 ## Performance / Images
 - [x] Homepage is now consistent with the other pages: `index.html` ships `.avif`/`.webp` images with `width`/`height`, preload, and `srcset` on the slider slides (slides 1–6). No action needed; this item was previously inaccurate.
 - [ ] Add explicit `width`/`height` attributes to the two remaining images that lack them: `images/architecture/COGS_Arch.avif` (`nav-logo`, `link-card-img`) and `images/shepherds/Jesus_drawing.avif` (`full-image`). CSS already sizes these, but img attributes are best practice.
 - [x] Original `.jpg` files have been removed; all HTML references now point to modern formats (`.avif`/`.webp`). The only leftover original (`Jesus_drawing.jpg`) was deleted. No action needed.
 - [ ] `events.html` `<picture>` blocks were mis-indented and had an extra stray `</picture>`. Indentation is now normalized across all six pages and tag counts are balanced (verified). No action needed; this item was previously inaccurate.
-- [ ] CSS/JS minification is unchecked in `performance_ideas.md`. Minify both files and consider inlining critical CSS for the above-the-fold header.
+- [x] CSS/JS minification complete: `styles/style.min.css`, `scripts/main.js.min.js`, and `scripts/analytics.js.min.js` generated. Consider inlining critical CSS for above-the-fold header.
 - [x] `package.json` is no longer empty: it declares `cssnano` and `terser` as devDependencies. However, `node_modules/` contains a full PostCSS toolchain (~70 packages) including an undeclared `postcss` core plus transitive deps. Add the missing declarations to `package.json` so dependencies are tracked.
 
 ## Code quality

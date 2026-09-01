@@ -7,8 +7,8 @@
 - [x] Convert remaining `.jpg`/`.png` files to `.webp`/`.avif`. All originals have been removed; only modern formats remain in `images/`.
 
 ## Assets & Scripts
-- [x] Minify `styles/style.css`. Run with cssnano → produces `styles/style.min.css`. The source was already effectively minified (single-line, no inter-rule whitespace), so the output is ~identical in size; originals are untouched and reversible.
-- [x] Minify `scripts/main.js` and `scripts/analytics.js`. Run with terser → produces `scripts/main.js.min.js` and `scripts/analytics.js.min.js`. `analytics.js` shrank ~24% (387→295 bytes); `main.js` was already compact so savings were minimal. Originals untouched.
+- [x] Minify `styles/style.css` → `styles/style.min.css` via cssnano. Output ~identical size (source was already minified).
+- [x] Minify `scripts/main.js` → `scripts/main.js.min.js` and `scripts/analytics.js` → `scripts/analytics.js.min.js` via terser. `analytics.js` shrank ~24% (387→295 bytes).
 - [ ] Audit dependencies. `package.json` declares only `cssnano` and `terser`, but `node_modules/` contains a full PostCSS toolchain (~70 packages) including an undeclared `postcss` core plus transitive deps. Declare the missing packages in `package.json`; then remove any genuinely unused dependencies.
 
 ## Delivery
