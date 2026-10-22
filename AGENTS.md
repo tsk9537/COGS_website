@@ -51,7 +51,8 @@ Each page shares a common layout:
 ### Liturgical calendar
 
 - `scripts/main.js` contains `updateLiturgicalColors()` which changes the nav bar and footer background colors based on the current Anglican liturgical season (Advent, Christmas, Ordinary Time, Lent, Holy Week, Easter, etc.)
-- The colors correspond to traditional Anglican vestment colors: dark blue (Advent prep), rose (Gaudete), white/gold (Christmas/Easter), green (Ordinary Time), purple (Lent), red (Holy Week)
+- The colors correspond to traditional Anglican vestment colors: dark blue (Advent prep), rose (Gaudete, 3rd Sunday of Advent), white/gold (Christmas/Epiphany and Easter), green (Ordinary Time), purple (Lent), red (Holy Week through Holy Saturday, and Pentecost Sunday)
+- `updateLiturgicalColors()` sets `--liturgical-color`, `--liturgical-text`, `--liturgical-accent`, `--liturgical-border` on `<html>` and adds `anglican-calendar-active` (plus `liturgical-light`/`liturgical-dark`) to `<body>`; `styles/style.css` consumes those variables. Ordinary Time applies no class so the default green CSS remains
 - `liturgical-preview.html` is a dev-only page that previews each season's nav/footer colors in card form (not linked in site navigation)
 
 ### Images

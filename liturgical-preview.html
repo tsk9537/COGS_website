@@ -73,7 +73,7 @@
         <div class="preview-card" id="card-advent-prep"></div>
         <div class="season-label">
             <span class="season-name" style="color:#1a3d6e;">Advent (Preparation)</span>
-            <span class="season-range">~Dec 27 prev – ~Jan 4</span>
+            <span class="season-range">1st Sunday of Advent – Dec 24 (Nov 29, 2026)</span>
             <span class="season-desc">Dark Blue — penitential season of anticipation.</span>
         </div>
     </div>
@@ -82,8 +82,8 @@
     <div class="season-row">
         <div class="preview-card" id="card-gaudete"></div>
         <div class="season-label">
-            <span class="season-name" style="color:#c41e3a;">Advent — Gaudete Sunday</span>
-            <span class="season-range">~Jan 4 – Dec 25 prev (3rd Sun)</span>
+            <span class="season-name" style="color:#b0526a;">Advent — Gaudete Sunday</span>
+            <span class="season-range">3rd Sunday of Advent (Dec 13–19, 2026)</span>
             <span class="season-desc">Rose/Pink — joy anticipated on the third Sunday.</span>
         </div>
     </div>
@@ -93,7 +93,7 @@
         <div class="preview-card" id="card-christmas"></div>
         <div class="season-label">
             <span class="season-name" style="color:#1a1a2e;">Christmas through Epiphany</span>
-            <span class="season-range">Dec 25 prev – ~Feb 6 / Mar 19</span>
+            <span class="season-range">Dec 25 – Jan 6, Feast of the Epiphany</span>
             <span class="season-desc">Gold/White — purity, light & the joy of Christ's birth.</span>
         </div>
     </div>
@@ -103,7 +103,7 @@
         <div class="preview-card" id="card-ordinary"></div>
         <div class="season-label">
             <span class="season-name" style="color:#5c9e47;">Ordinary Time (Green)</span>
-            <span class="season-range">After Epiphany → Lent / Pentecost → next Advent</span>
+            <span class="season-range">Jan 7 – Ash Wednesday · Monday after Pentecost – Advent 1</span>
             <span class="season-desc">Green — new life, hope, growth & harvest.</span>
         </div>
     </div>
@@ -113,7 +113,7 @@
         <div class="preview-card" id="card-lent"></div>
         <div class="season-label">
             <span class="season-name" style="color:#6b2c7e;">Lent (Penitence)</span>
-            <span class="season-range">~Mar 19 – ~Apr 5 (Ash Wed → Palm Sun)</span>
+            <span class="season-range">Ash Wed – Sat before Palm Sun (Feb 18 – Mar 28, 2026)</span>
             <span class="season-desc">Purple/Violet — penance, repentance & preparation.</span>
         </div>
     </div>
@@ -123,7 +123,7 @@
         <div class="preview-card" id="card-holy-week"></div>
         <div class="season-label">
             <span class="season-name" style="color:#c41e3a;">Holy Week (Passion)</span>
-            <span class="season-range">~Apr 5 – ~Apr 9 (Palm Sun → Good Fri)</span>
+            <span class="season-range">Palm Sun – Holy Sat (Mar 29 – Apr 4, 2026)</span>
             <span class="season-desc">Red — Christ's passion, suffering & the Passion narrative.</span>
         </div>
     </div>
@@ -133,8 +133,18 @@
         <div class="preview-card" id="card-easter"></div>
         <div class="season-label">
             <span class="season-name" style="color:#1a1a2e;">Easter Season</span>
-            <span class="season-range">~Apr 5 – ~May 31 (Good Fri → Pentecost)</span>
-            <span class="season-desc">White/Gold — resurrection joy, triumph of life over death.</span>
+            <span class="season-range">Easter Sun – Sat before Pentecost (Apr 5 – May 23, 2026)</span>
+            <span class="season-desc">White/Gold — resurrection joy. Red returns on Pentecost Sunday itself.</span>
+        </div>
+    </div>
+
+    <!-- Pentecost -->
+    <div class="season-row">
+        <div class="preview-card" id="card-pentecost"></div>
+        <div class="season-label">
+            <span class="season-name" style="color:#c41e3a;">Pentecost Sunday</span>
+            <span class="season-range">50th day of Easter (May 24, 2026)</span>
+            <span class="season-desc">Red — the fire of the Holy Spirit; a single-day feast.</span>
         </div>
     </div>
 
@@ -144,12 +154,13 @@
         // The actual main.js logic (updateLiturgicalColors) is what the live site uses — this preview just simulates it visually.
         const cards = [
             { id: 'card-advent-prep',   navBg:'#1a3d6e',  footBg:'#1a3d6e' },
-            { id: 'card-gaudete',       navBg:'#c41e3a',  footBg:'#c41e3a' },
+            { id: 'card-gaudete',       navBg:'#b0526a',  footBg:'#b0526a' },
             { id: 'card-christmas',     navBg:'#f4e7c3',  footBg:'#f4e7c3' },
             { id: 'card-ordinary',      navBg:'#5c9e47',  footBg:'#5c9e47' },
             { id: 'card-lent',          navBg:'#6b2c7e',  footBg:'#6b2c7e' },
             { id: 'card-holy-week',     navBg:'#c41e3a',  footBg:'#c41e3a' },
             { id: 'card-easter',        navBg:'#f4e7c3',  footBg:'#f4e7c3' },
+            { id: 'card-pentecost',     navBg:'#c41e3a',  footBg:'#c41e3a' },
         ];
 
         cards.forEach(c => {
@@ -182,7 +193,7 @@
             }
 
             foot.style.backgroundColor = c.footBg;
-            if (c.id === 'card-advent-prep' || c.id === 'card-gaudete' || c.id === 'card-lent' || c.id === 'card-holy-week') {
+            if (c.id === 'card-advent-prep' || c.id === 'card-gaudete' || c.id === 'card-lent' || c.id === 'card-holy-week' || c.id === 'card-pentecost') {
                 foot.style.color = '#f0ede8';
             }
         });
