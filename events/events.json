@@ -354,26 +354,26 @@
   {
     "date": "2026-11-29",
     "category": "service",
-    "title": "Sunday Worship Service",
+    "title": "First Sunday in Advent",
     "time": "10:00 AM - 11:30 AM",
     "location": "Main Sanctuary",
-    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+    "description": "First Sunday in Advent worship service with sermon and potluck lunch."
   },
   {
     "date": "2026-12-06",
     "category": "service",
-    "title": "Sunday Worship Service",
+    "title": "Second Sunday in Advent",
     "time": "10:00 AM - 11:30 AM",
     "location": "Main Sanctuary",
-    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+    "description": "Second Sunday in Advent worship service with sermon and potluck lunch."
   },
   {
     "date": "2026-12-13",
     "category": "service",
-    "title": "Sunday Worship Service",
+    "title": "Third Sunday in Advent",
     "time": "10:00 AM - 11:30 AM",
     "location": "Main Sanctuary",
-    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+    "description": "Third Sunday in Advent worship service with sermon and potluck lunch."
   },
   {
     "date": "2026-12-18",
@@ -386,10 +386,18 @@
   {
     "date": "2026-12-20",
     "category": "service",
-    "title": "Sunday Worship Service",
+    "title": "Fourth Sunday in Advent",
     "time": "10:00 AM - 11:30 AM",
     "location": "Main Sanctuary",
-    "description": "Our regular Sunday morning worship service with sermon and potluck lunch."
+    "description": "Fourth Sunday in Advent worship service with sermon and potluck lunch."
+  },
+  {
+    "date": "2026-12-24",
+    "category": "service",
+    "title": "Christmas Eve Service",
+    "time": "5:00 PM - 6:30 PM",
+    "location": "Main Sanctuary",
+    "description": "Christmas Eve Service"
   },
   {
     "date": "2026-12-27",
